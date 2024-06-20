@@ -1,0 +1,230 @@
+﻿<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>My Website</title>
+    <link rel="stylesheet" href="forWebsite.css"> 
+</head>
+<body>
+
+    <nav  id="desktop-nav">
+      <div class="nav-container">
+          <a id="special-nav" href="#home">
+            <div class="logo">
+              <div >Harshvardhan</div>
+              <div >Shinde</div>
+            </div>
+          </a>
+
+       
+        <div>
+          <ul class="nav-links">
+            <li><a class="nav-a" href="#about">About</a></li>
+            <li><a class="nav-a" href="#projects">Projects</a></li>
+            <li><a class="nav-a" href="#contact">Contact</a></li>
+            <li><a class="nav-a" href="#gallery">Gallery</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div >
+      <ul class="socials">
+        <div><img onclick="OpenIg()" class="socials-imgs" src="images/ig.png" alt="MyIG"></div>
+        <div><img onclick="OpenLinkedIn()" class="socials-imgs" src="images/link.png" alt="MyLinkedIn"></div>
+      </ul>
+    </div>
+  <section class="hidden" id="home">    
+
+   
+   
+
+      <div class="section-pic-container">
+        <img src="images/profilepic.png" alt="Me">
+      </div>
+      <div class="section-text-container">
+        <p class="section-text">Hello I'm</p>
+        <h1 class="title">Harsh</h1>
+        <p class="section-text">Software Developer</p>
+        <img id="school-logo" src="images/Buffalo_Bulls_logo.svg.png" alt="">
+  
+  
+      </div>
+  
+
+  </section>
+  
+
+     
+
+  <section class="hidden" id="about">
+  
+    <p id="header-text">Get to know more</p>
+    <h1 id="header-header">About Me</h1>  
+ 
+    
+<div id="section-text-container-home">
+<div > <img id="about-img" src="images/Me.png" alt="Me"></div>
+
+<div id="about-stuff-container">
+  <div id="container-about">
+    <div id="about-stuff">
+      <img id="about-interest-img" src="images/interest.png" alt="interests">
+      <h2 >Interests</h2>
+      <p id="about-interest-txt">Game Development, Data Science, AI/ML</p>
+      <p id="about-interest-txt">Gym, Combat-Sports, Piano</p>
+      
+      
+      </div>
+      
+      
+      <div id="about-stuff">
+        <img id="about-interest-img" src="images/education.png" alt="Education">
+        <h2 >Education</h2>
+        <p id="about-interest-txt">Pursuing B.S in Computer Science ( '23 - Now)</p>
+        <p id="about-interest-txt">High School Diploma 2023</p>
+      
+        </div>
+
+  </div>
+<div>
+  <p id="about-interest-txt">A passionate Computer Science Student based in Buffalo, NY. As a Rising Sophomore attending the University of Buffalo, I plan to specialize in Artificial Intellgence and Data Science. More to come...</p>
+</div>
+      
+
+</div>
+
+
+</div>  
+
+
+    
+  </section>
+
+  <section class="hidden" id="projects">
+    <p id="header-text">Explore some</p>
+    <h1 id="header-header">Recent Projects...</h1>  
+    <div class="project-project-container">
+<div class="project-project">
+<img id="project-img" src="images/aimSharp.png" alt="">
+<h1 id="proj-header">AimSharp</h1>
+<div class="proj-btn-container">
+  <button class="proj-btn" onclick="openAimsharp()">Github</button>
+  <button class="proj-btn" >Live Demo</button>
+
+</div>
+
+</div>
+<div class="project-project">
+  <img id="project-img" src="images/aimSharp.png" alt="">
+  <h1 id="proj-header">Minigames</h1>
+  <div class="proj-btn-container">
+    <button class="proj-btn" onclick="openMinigames()">Github</button>
+    <button class="proj-btn">Live Demo</button>
+
+
+  </div>
+</div>
+
+
+
+
+
+    </div>
+
+
+  </section>
+  <section id="contact">
+<p id="header-text">Get in touch</p>
+<h1 id="header-header">Through...</h1>
+
+<div class="contact-container">
+<form action="" class="contact-left" >
+  <div class="contact-left-sub">
+    <input type="text" name="name" placeholder="Your Name" class="contact-inputs" required>
+
+  </div>
+  <div class="contact-left-sub">
+    <input type="email" name="email" placeholder="Your Email" class="contact-inputs" required>
+
+  </div>
+  <div class="contact-left-sub">
+    <textarea name="message" placeholder="Your Message" class="contact-inputs" required></textarea>
+
+  </div>
+  <div class="contact-left-sub">
+    <button type="submit" class="contact-left-button">Submit</button>
+
+  </div>
+</form>
+<div class="contact-right">
+
+</div>
+</div>
+
+  </section>
+  <section class="hidden" id="gallery">
+    <p id="header-text">Life when</p>
+    <h1 id="header-header">memories were made...</h1> 
+  
+    <div class="gallery-gallery-container">
+  
+<div class="example">
+  <div>      <p class="gallery-title"> Freshman year</p>
+  </div>
+  <div class="container">
+    <div class="wrapper">
+      <div class="gallery-container">
+        <img class="gallery-img" src="images/group2.jpg" alt="DisneyImg">
+      </div>
+      <div class="gallery-container">
+       
+        <img class="gallery-img" src="images/group1.jpg" alt="SweetImg">
+      </div>
+      
+    </div>
+  </div>
+  
+</div>
+    
+
+
+
+<div class="example">
+  <div>      <p class="gallery-title">Sophmore year</p>
+  </div>
+  <div class="container">
+    <div class="wrapper">
+      <div class="gallery-container">
+      </div>
+      <div class="gallery-container">
+       
+      </div>
+      
+    </div>
+  </div>
+  
+</div>
+
+<div class="example">
+  <div>      <p class="gallery-title">Junior year</p>
+  </div>
+  <div class="container">
+    <div class="wrapper">
+      <div class="gallery-container">
+      </div>
+      <div class="gallery-container">
+       
+      </div>
+      
+    </div>
+  </div>
+  
+</div>
+
+
+    </div>
+  </section>
+  
+  <script src="script.js"></script>
+</body>
+</html>
