@@ -380,7 +380,7 @@ h1 {
   font-weight: 500;
   color: #333333;
   padding-left: 25px;
-  border-width: 1px;
+  border-width: 0px;
   border-radius: 50px;
   border-color: #e0e0e0;
   background-color: #ffffff;
@@ -391,6 +391,7 @@ h1 {
   border-radius: 20px;
   background-color: #ffffff;
   border: 1px solid #666666;
+  border-width: 0px;
   color: #333333;
 }
 .contact-left-button:hover {
