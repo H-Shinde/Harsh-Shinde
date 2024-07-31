@@ -7,8 +7,8 @@ window.open('https://www.linkedin.com/in/harshvardhan-shinde-b0a0a1295/');
 function openAimsharp(){
     window.open('https://github.com/H-Shinde/AimSharp');
 }
-function openMinigames(){
-    window.open('https://github.com/H-Shinde');
+function openSentimentAnalysis(){
+    window.open('https://github.com/H-Shinde/sentiment-analysis');
 }
 
 
