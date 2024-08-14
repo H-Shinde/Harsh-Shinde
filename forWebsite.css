@@ -146,6 +146,11 @@ h1 {
 }
 
 /* About section */
+
+#about{
+  padding: 8vh 5vw;
+}
+
 #header-text, #header-header {
   text-align: center;
 }
