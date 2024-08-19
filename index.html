@@ -17,7 +17,7 @@
           </a>
 
        
-        <div>
+        <div class="nav-links-container">
           <ul class="nav-links">
             <li><a class="nav-a" href="#about">About</a></li>
             <li><a class="nav-a" href="#projects">Projects</a></li>
@@ -33,6 +33,33 @@
         <div><img onclick="OpenLinkedIn()" class="socials-imgs" src="images/link.png" alt="MyLinkedIn"></div>
       </ul>
     </div>
+    <nav id="hamburger-nav">
+
+        <a id="special-nav" href="#home">
+            <div class="logo">
+              <div >Harshvardhan</div>
+              <div >Shinde</div>
+            </div>
+          </a>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <!-- <ul class="nav-links"> -->
+          <li><a  class="nav-a"href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a   class="nav-a" href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a   class="nav-a" href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a   class="nav-a" href="#contact" onclick="toggleMenu()">Contact</a></li>
+          <!-- </ul> -->
+        </div>
+      </div>
+    </nav>
+
+
+
   <section class="hidden" id="home">    
 
    
@@ -82,7 +109,7 @@
         <h2 >Education</h2>
         <p id="about-interest-txt">Pursuing B.S in Computer Science ( '23 - Now)</p>
         <p id="about-interest-txt">High School Diploma 2023</p>
-        <button class="CV-btn" onclick="window.open('images/HarshvardhanShinde (3).pdf')">Download CV</button>
+        <button class="CV-btn" onclick="window.open('images/Latex-Harsh_Shinde-Resume.pdf')">Download CV</button>
         </div>
 
   </div>
@@ -104,6 +131,7 @@
     <p id="header-text">Explore some</p>
     <h1 id="header-header">Recent Projects...</h1>  
     <div class="project-project-container">
+
 <div class="project-project">
   <img id="project-img" src="images/Sneti.png" alt="">
   <h1 id="proj-header">Sentiment Analysis</h1>
@@ -124,7 +152,6 @@
   </div>
   
   </div>
-
 
 
 
