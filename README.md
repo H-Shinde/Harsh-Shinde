@@ -1,29 +1,12 @@
-# Harshvardhan Shinde's Personal Website
+# React + Vite
 
-Welcome to my personal website! This README will guide you through the structure, functionality, and features of my site. My website showcases my projects, interests, and professional background. Feel free to explore and reach out if you have any questions or feedback.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## Table of Contents
+Currently, two official plugins are available:
 
-1. [About](#about)
-2. [Features](#features)
-3. [Technologies Used](#technologies-used)
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
+## Expanding the ESLint configuration
 
-## Introduction
-
-This website serves as an online portfolio to display my work and interests as a Computer Science student at the University of Buffalo. Here, you'll find details about my projects, including my work on anime recommendation system, and other web development projects.
-
-## Features
-- **About Me**: Posts about my thoughts on various topics in technology, programming, and more.
-- **Projects**: Detailed descriptions of my projects, including links to GitHub repositories.
-- **Contact**: A form to get in touch with me directly.
-- **Resume**: Downloadable PDF of my current resume.
-- **Gallery**: Display some memorable moments in my life.
-
-
-## Technologies Used
-
-- **Frontend**: HTML, CSS, JavaScript
-- **Hosting**: (e.g., GitHub Pages)
-
-## Project Structure
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
