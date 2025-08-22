@@ -31,8 +31,8 @@ const Header =()=>{
      data-aos-duration="2500"  className="text-base tracking-wider transition-colors hover:text-gray-300 z-50" href="#">Life</a>
             </nav>
 
-            <button className="hidden md:block bg-[#a7a7a7] text-black py-3 px-8 rounded-full border-none font-medium transition-all duration-500 hover:bg-white cursor-pointer z-50">
-                Sign In
+            <button className=" font-semibold hidden md:block bg-[#a7a7a7] text-black py-3 px-8 rounded-full border-none font-medium transition-all duration-500 hover:bg-white cursor-pointer z-50">
+                Download Resume  <i class='bx bx-arrow-down-stroke-circle'></i>
             </button>
 
 
